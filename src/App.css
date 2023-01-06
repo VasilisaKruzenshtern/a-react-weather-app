@@ -31,7 +31,7 @@ h1 {
 
 
 input {
-    border-color:orchid;
+    border-color:darkviolet;
     border-radius: 8px;
     border-style: solid;
     border-width: thick;
@@ -59,10 +59,10 @@ a {
     border-radius:10px;
 }
 .btn {
-    color: blueviolet;
-    background-color: white;
+    color: white;
+    background-color: blueviolet;
     border-radius: 8px;
-    border-color: orchid;
+    border-color: darkviolet;
     border-style: solid;
     font-weight:500;
     border-width:thick;
