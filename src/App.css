@@ -4,6 +4,7 @@
     text-align: center;
     padding-bottom:20px;
     padding-top:10px;
+    color:darkorchid;
 }
 
 form {
@@ -16,6 +17,9 @@ ul {
     padding-top:15px;
     text-align:center;
     padding-right:20px;
+    padding-left:20px;
+    font-size:large;
+    color:white;
 }
 
 h1 {
@@ -25,17 +29,19 @@ h1 {
     font-weight:900;
 }
 
-button {
-    color: darkorchid;
-    border-radius:8px;
-    border-style:ridge;
-    border-color:blueviolet;
-    
+
+input {
+    border-color:orchid;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: thick;
 }
-input{
-    border-color:blueviolet;
-    border-radius:8px;
+a {
+    color:blueviolet;
+    font-size:smaller;
 }
+
+  
 
 .App {
     text-align: center;
@@ -50,6 +56,17 @@ input{
     padding-right:30px;
     max-width: 400px;
     border-style:outset;
-   border-radius:10px;
+    border-radius:10px;
+}
+.btn {
+    color: blueviolet;
+    background-color: white;
+    border-radius: 8px;
+    border-color: orchid;
+    border-style: solid;
+    font-weight:500;
+    border-width:thick;
+    margin-bottom:8px;
+
 }
 

@@ -32,7 +32,7 @@ export default function App() {
     let form = (
         <form onSubmit={handleSubmit}>
             <input type="search" placeholder="Enter a city.." onChange={updateCity} />
-            <button className="searchButton" type="Submit">Search</button>
+            <button className="btn w-40" type="Submit">Search</button>
         </form>
     );
 
