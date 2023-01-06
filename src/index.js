@@ -15,7 +15,7 @@ root.render(
                 <App />
                 <div className="footer">
                     <small>
-                        <a href="https://github.com/VasilisaKruzenshtern/react-weather-app">GitHub Weather App{" "}</a>
+                        <a href="https://github.com/VasilisaKruzenshtern/a-react-weather-app.git">GitHub Weather App{" "}</a>
                         by Olena Palchykova
                     </small>
                     
