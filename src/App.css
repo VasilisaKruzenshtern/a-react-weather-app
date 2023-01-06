@@ -1,0 +1,55 @@
+
+
+.footer {
+    text-align: center;
+    padding-bottom:20px;
+    padding-top:10px;
+}
+
+form {
+    text-decoration: none;
+  
+}
+
+ul {
+    list-style: none;
+    padding-top:15px;
+    text-align:center;
+    padding-right:20px;
+}
+
+h1 {
+    color: blueviolet;
+    padding-bottom:10px;
+    text-decoration-style:dotted;
+    font-weight:900;
+}
+
+button {
+    color: darkorchid;
+    border-radius:8px;
+    border-style:ridge;
+    border-color:blueviolet;
+    
+}
+input{
+    border-color:blueviolet;
+    border-radius:8px;
+}
+
+.App {
+    text-align: center;
+    
+    
+}
+.container {
+    background-color: plum;
+    padding-bottom: 13px;
+    padding-top: 30px;
+    padding-left:30px;
+    padding-right:30px;
+    max-width: 400px;
+    border-style:outset;
+   border-radius:10px;
+}
+
