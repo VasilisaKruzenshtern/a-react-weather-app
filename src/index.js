@@ -11,7 +11,7 @@ root.render(
     <StrictMode>
         <div className="App">
             <div className="container">
-                <h1>World Weather</h1>
+                <h1>WORLD WEATHER</h1>
                 <App />
                 <div className="footer">
                     <small>
