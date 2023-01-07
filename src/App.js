@@ -41,8 +41,8 @@ export default function App() {
             <div>
                 {form}
                 <ul>
-                    <li>Температура: {Math.round(weather.temperature)}°C</li>
-                    <li>Погодні умови: {weather.description}</li>
+                    <li>{Math.round(weather.temperature)}°C</li>
+                    <li>{weather.description}</li><br/>
                     <li>Вологість: {weather.humidity}%</li>
                     <li>Вітер: {weather.wind}km/h</li>
                     <li>
