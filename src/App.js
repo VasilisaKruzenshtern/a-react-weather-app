@@ -42,7 +42,7 @@ export default function App() {
                 {form}
                 <ul>
                     <li>Температура: {Math.round(weather.temperature)}°C</li>
-                    <li>Опис: {weather.description}</li>
+                    <li>Погодні умови: {weather.description}</li>
                     <li>Вологість: {weather.humidity}%</li>
                     <li>Вітер: {weather.wind}km/h</li>
                     <li>
