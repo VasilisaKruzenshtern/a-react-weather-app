@@ -11,12 +11,12 @@ root.render(
     <StrictMode>
         <div className="App">
             <div className="container">
-                <h1>WORLD WEATHER</h1>
+                <h1>ПОГОДА У СВІТІ</h1>
                 <App />
                 <div className="footer">
                     <small>
-                        <a href="https://github.com/VasilisaKruzenshtern/a-react-weather-app.git">GitHub Weather App{" "}</a>
-                        by Olena Palchykova
+                        <a href="https://github.com/VasilisaKruzenshtern/a-react-weather-app.git">GitHub Weather App {" "} </a>
+                        від О. Пальчикової
                     </small>
                     
                 </div>

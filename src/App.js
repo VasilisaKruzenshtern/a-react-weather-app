@@ -31,8 +31,8 @@ export default function App() {
 
     let form = (
         <form onSubmit={handleSubmit}>
-            <input type="search" placeholder="Enter a city.." onChange={updateCity} />
-            <button className="btn w-40" type="Submit">Search</button>
+            <input type="search" placeholder="Введіть місто..." onChange={updateCity} />
+            <button className="btn w-40" type="Submit">Пошук</button>
         </form>
     );
 
@@ -41,10 +41,10 @@ export default function App() {
             <div>
                 {form}
                 <ul>
-                    <li>Temperature: {Math.round(weather.temperature)}°C</li>
-                    <li>Description: {weather.description}</li>
-                    <li>Humidity: {weather.humidity}%</li>
-                    <li>Wind: {weather.wind}km/h</li>
+                    <li>Температура: {Math.round(weather.temperature)}°C</li>
+                    <li>Опис: {weather.description}</li>
+                    <li>Вологість: {weather.humidity}%</li>
+                    <li>Вітер: {weather.wind}km/h</li>
                     <li>
                         <img src={weather.icon} alt={weather.description} />
                     </li>
